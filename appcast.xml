@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Aurator</title>
+        <item>
+            <title>2.4.0</title>
+            <pubDate>Fri, 18 Sep 2026 13:47:30 +1000</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/ndmr0/aurator/main/Aurator.dmg" length="10860523" type="application/octet-stream" sparkle:edSignature="7/q/yeJvAdWcMN5dz8q5EpeQYjtGkfltmnUSTXS9NyKz42E2xc5bV1k1HcHsYyLWBrpDiZD3nkBfU010a7GqBg=="/>
+        </item>
+    </channel>
+</rss>
