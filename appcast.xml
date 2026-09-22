@@ -3,12 +3,12 @@
     <channel>
         <title>Aurator</title>
         <item>
-            <title>2.6.0</title>
-            <pubDate>Fri, 18 Sep 2026 22:46:41 +1000</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
+            <title>2.7.0</title>
+            <pubDate>Tue, 22 Sep 2026 23:46:37 +1000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/ndmr0/aurator/main/Aurator.dmg" length="11322751" type="application/octet-stream" sparkle:edSignature="oB14ovzG8IVlTMg100o2+Z8d2+CeAj08ThBreEr8iHPAFwpHxKD9qb7Zi4lgBQw6SISaXhCWHGDcl/1TJ1o8CQ=="/>
+            <enclosure url="https://raw.githubusercontent.com/ndmr0/aurator/main/Aurator.dmg" length="11462795" type="application/octet-stream" sparkle:edSignature="DqytRlavEvqrKBOSykiKg7p1R12allHNrrOsciyFXBtWxn+Ot01C+iC1h86f6J8sgqARZWEU4kmBzil5TdN+Aw=="/>
         </item>
     </channel>
 </rss>
