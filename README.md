@@ -51,6 +51,12 @@ and the [terms of sale](https://tryaurator.app/terms) explain refunds and upgrad
   Mac need Apple Intelligence, which needs a Mac with Apple silicon. Without it,
   those four work only with Cloud and your own Anthropic key.
 
+## What is new in 2.11.1
+
+- Aurator no longer quits when you tap the dictation key with a microphone
+  whose sound format differs from the one before, such as the built-in
+  microphone after EarPods.
+
 ## What is new in 2.11.0
 
 - AI drafts wait for you. A rewrite style, a voice edit or Write for me shows
