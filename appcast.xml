@@ -1,14 +1,23 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Aurator</title>
+        <item>
+            <title>2.12.0</title>
+            <pubDate>Thu, 22 Oct 2026 08:28:14 +1000</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/ndmr0/aurator/main/Aurator-2.12.0-25.dmg" length="29018778" type="application/octet-stream" sparkle:edSignature="J9dtqr1cZukCFp5rIMipZd9wCa2VrcnQbGZ4qDaT+JKWL+CjsEzKxUwa9QiQL95RBVdSBKhda3R3z4doEbU2Cg=="></enclosure>
+        </item>
         <item>
             <title>2.11.1</title>
             <pubDate>Sat, 03 Oct 2026 00:14:52 -0500</pubDate>
             <sparkle:version>13</sparkle:version>
             <sparkle:shortVersionString>2.11.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/ndmr0/aurator/main/Aurator-2.11.1-13.dmg" length="14399831" type="application/octet-stream" sparkle:edSignature="/Nm1lEYFEPG1EsK7SIxlnodDIne1gQMD5jiwEJYVybXwcCd+X3lTppoyossS1yn8Qn/BFtS0YUJvulCBjQc/DA=="/>
+            <enclosure url="https://raw.githubusercontent.com/ndmr0/aurator/main/Aurator-2.11.1-13.dmg" length="14399831" type="application/octet-stream" sparkle:edSignature="/Nm1lEYFEPG1EsK7SIxlnodDIne1gQMD5jiwEJYVybXwcCd+X3lTppoyossS1yn8Qn/BFtS0YUJvulCBjQc/DA=="></enclosure>
         </item>
         <item>
             <title>2.11.0</title>
@@ -16,7 +25,10 @@
             <sparkle:version>12</sparkle:version>
             <sparkle:shortVersionString>2.11.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/ndmr0/aurator/main/Aurator-2.11.0-12.dmg" length="14400926" type="application/octet-stream" sparkle:edSignature="KPiS2HEpJIi/ZdruUNj5X092E+9X3/8olIwzemSdobnjeXVQaRyHIPjCpiJ8S4v0uYIVcA/BfMWFAL4ZAmkQCw=="/>
+            <enclosure url="https://raw.githubusercontent.com/ndmr0/aurator/main/Aurator-2.11.0-12.dmg" length="14400926" type="application/octet-stream" sparkle:edSignature="KPiS2HEpJIi/ZdruUNj5X092E+9X3/8olIwzemSdobnjeXVQaRyHIPjCpiJ8S4v0uYIVcA/BfMWFAL4ZAmkQCw=="></enclosure>
         </item>
     </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: Tlsa6qjYJviJWponNDMTgaQQtV8X/a7YO4Yibb2o4FDLDaJjDCjVkphWHXt/kiNDW2ujufbjgMr3bqTMi4NrDA==
+length: 2258
+-->

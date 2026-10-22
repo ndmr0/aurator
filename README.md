@@ -9,8 +9,8 @@
 # Aurator for macOS
 
 Just talk, and it is written. Aurator turns your voice into clean text in every
-app on your Mac, writes whole messages in your voice, and coaches you to speak
-better from your own words. Private by default, cloud by choice.
+app on your Mac, writes whole messages for you, and coaches you to speak better
+from your own words. Private by default, cloud by choice.
 
 Website: [tryaurator.app](https://tryaurator.app)
 
@@ -44,12 +44,33 @@ and the [terms of sale](https://tryaurator.app/terms) explain refunds and upgrad
 ## What you need
 
 - macOS 26 or later, on a Mac with Apple silicon. Aurator is also built for
-  Intel Macs, but it has not been tested on one yet, so on an Intel Mac please
-  use the free week to check that dictation works before you buy.
-- Dictation, cleanup, the coach and the dictionary run on the Mac itself.
+  Intel Macs, but it has not been tested on one yet, and Apple's on-device
+  speech engine may not be available there, so dictation may need Cloud and
+  your own Deepgram key. Please use the free week to check it before you buy.
+- On Apple silicon, dictation, cleanup, the coach and the dictionary run on the
+  Mac itself.
 - Write for me, voice editing, the rewrite styles and building your voice on the
   Mac need Apple Intelligence, which needs a Mac with Apple silicon. Without it,
   those four work only with Cloud and your own Anthropic key.
+
+## What is new in 2.12.0
+
+- Notes. Record a call or a meeting, both sides or just your microphone, and
+  get a transcript and a summary made on your Mac. Each side of a call finds
+  its own language, so a call in English and Spanish is written in both. You
+  can mute either side, ask about a note, and export it.
+- The coach teaches with 18 short spoken lessons. You answer out loud, and
+  your answer is measured against the lesson's goal.
+- A Help page with 84 articles that work offline, a Keyboard Shortcuts window
+  and a Report a bug button.
+- Snippets, your dictionary in a file, and a choice of how long History keeps
+  dictations.
+- Notes' sound is kept in Apple Lossless and checked sample by sample before
+  the original recording is removed. A private dictation made during a note is
+  never kept in its sound, its copies or a backup.
+- Known limits: at Stop, about 0.1 seconds of your microphone from just before
+  the click can be missing from a note, and the first time Help opens it can
+  pause for about 0.2 seconds.
 
 ## What is new in 2.11.1
 
@@ -87,8 +108,13 @@ and the [terms of sale](https://tryaurator.app/terms) explain refunds and upgrad
   accounts. Then Deepgram receives your audio and your dictionary words while you
   speak, and Claude, made by Anthropic, receives text for the rewrite styles,
   voice editing, Write for me and building your voice. Nothing is sent to us.
-  When you choose Cloud and save a Deepgram key, Aurator asks Deepgram once
-  whether it accepts the key. That request carries only the key.
+  When you save a Deepgram key, with Cloud on for every app or for one app by
+  its rule, Aurator asks Deepgram once whether it accepts the key. That request
+  carries only the key.
+- A note records your microphone and, for a call, your Mac's sound, so it holds
+  the other people's voices. Its sound, transcript and summary are made and kept
+  on your Mac. Only its text can go to Claude, with Cloud on and your own key,
+  and Aurator asks you first.
 - The full list of what goes where is at [tryaurator.app/privacy](https://tryaurator.app/privacy).
 
 ## Help
